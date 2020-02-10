@@ -138,8 +138,8 @@ One easy step that _might_ fix the noise on the Z input has been to solder a 22n
 ## AS5047/AS5048 Encoders
 The AS5047/AS5048 encoders are Hall Effect/Magnetic sensors that can serve as rotary encoders for the ODrive.
 
-The AS5047 has 3 independent output interfaces: SPI, ABI, and PWM. 
-The AS5048 has 4 independent output interfaces: SPI, ABI, I2C, and PWM.
+The AS5047D AS5047P AS5147 has 3 independent output interfaces: SPI, ABI, and PWM. 
+The AS5048A has 4 independent output interfaces: SPI, ABI, I2C(AS5048B), and PWM.
 
 Both chips come with evaluation boards that can simplify mounted the chips to your motor. For our purposes if you are using an evaluation board you should select the settings for 3.3v, and tie MOSI high to 3.3v. 
 
